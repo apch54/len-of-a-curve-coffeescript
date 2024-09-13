@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm -f ./js/*.js
+
+clear
+gulp
+node ./js/app.js

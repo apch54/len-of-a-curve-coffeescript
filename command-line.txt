@@ -1,0 +1,13 @@
+coffee --compile --bare --output ./js ./coffee 
+
+coffee --join ./js/project.js --bare --compile ./coffee/*.coffee
+
+utiliser la version ci dessous
+
+
+
+
+
+cat ./coffee/test.coffee ./coffee/tom.coffee | coffee --compile --bare --stdio > ./js/project.js
+
+cat ./**/*.coffee | coffee --compile --bare --stdio > ./js/app.js

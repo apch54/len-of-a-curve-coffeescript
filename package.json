@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "coffeescript": "^2.7.0",
+    "gulp": "^5.0.0",
+    "gulp-header": "^2.0.9",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "gulp-cli": "^3.0.0",
+    "gulp-coffee": "^3.0.3",
+    "gulp-concat": "^2.6.1"
+  },
+  "name": "mygulp",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "apch",
+  "license": "ISC",
+  "description": ""
+}
